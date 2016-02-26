@@ -1,7 +1,9 @@
 function sayHello(name) {
-    return "this is cool";
+    return "Hello, " + name;
 }
 
-var name = "prakhar";
+var name = "Foo";
 
 console.log(sayHello(name));
+
+(function() {console.log("from anon");})();
