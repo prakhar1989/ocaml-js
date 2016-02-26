@@ -1,5 +1,5 @@
 {
-  open Parser5
+  open Parser
   open Ast
 
   let start_pos lexbuf = lexbuf.Lexing.lex_start_p
